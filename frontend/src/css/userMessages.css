@@ -1,0 +1,64 @@
+.user-messages-container {
+    margin-top: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.user-messages-container div{
+    display: flex;
+    justify-content: center;
+}
+
+.user-messages-container h2{
+    background-color: hsl(211, 100%, 50%);
+    color: azure;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.user-table-container {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.user-table tbody{
+    border-radius: 7px;
+}
+
+.user-table th,
+.user-table td {
+    padding: 10px;
+    border: 1px solid #8a8a8a;
+}
+
+.user-table th {
+    background-color: hsl(211, 100%, 50%);
+    color: white;
+}
+
+.user-table tbody tr {
+    background-color: white; 
+}
+
+.user-table button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.user-table button:hover {
+    background-color: #c82333;
+}
+  

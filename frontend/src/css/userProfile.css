@@ -1,0 +1,147 @@
+
+.user-home-cont1{
+    margin-top: 150px;
+}
+
+.user-home-container{
+    /*height: 30vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 300px;
+}
+
+.user-tax-type{
+    margin: 20px 30px;
+    background-color: white;
+    /*position: relative;*/
+    height: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-tax-types{
+    display: flex;
+    /*flex-direction: column;*/
+    margin: 50px;
+}
+
+.user-overlay{
+    background-color: rgba(1, 1, 1, 0.515);
+    position: relative;
+    height: 200px;
+    /*width: 100%;*/
+    top: -200px;
+    /*left: 0px;*/
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 600;
+    color: aliceblue;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 15px 0 rgb(43, 43, 43), 0 6px 20px 0 rgba(48, 48, 48, 0.262);
+    text-decoration: none;
+}
+
+.user-overlay:hover{
+    background-color: rgba(1, 1, 1, 0.7);
+}
+
+.user-tax-type img{
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+} 
+
+/* ############################### contact us */
+.user-contact-cont{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.user-contact-form-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.user-contact-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.user-contact-cont label {
+margin-bottom: 8px;
+}
+
+.user-contact-cont input,
+.user-contact-cont textarea {
+width: 100%;
+padding: 8px;
+margin-bottom: 16px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.user-contact-cont button {
+width: 100%;
+padding: 10px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.user-contact-cont button:hover {
+background-color: #0056b3;
+}
+
+.gov-tax{
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 20px;
+    position: relative;
+    top:-40px;
+}
+.gov-tax div{
+    font-size: 20px;
+    font-weight:500;
+    letter-spacing: 2px;
+}
+
+.tax-information-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+}
+  
+.white-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+  
+.white-box h2 {
+    color: #333;
+}

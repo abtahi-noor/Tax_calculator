@@ -1,0 +1,50 @@
+.admin-messages-container {
+    background-color: #95c2f1;
+    /*margin-top: 150px;*/
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.admin-messages-cont{
+    width: 800px;
+    margin-top: 100px;
+}
+
+.admin-messages-container h2 {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.admin-message-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.admin-message-subject {
+    padding: 0.4em 1.5em;
+    font-weight: bold;
+}
+
+.admin-message-content {
+    margin-top: 10px;
+    padding: 0.4em 1.5em;
+}
+
+.admin-message-delete{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    /*top: 5px;*/
+    left: -10px;
+    height: 0;
+}
+
+.admin-message-delete button{
+    height: 30px
+}

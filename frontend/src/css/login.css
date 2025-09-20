@@ -1,0 +1,14 @@
+
+.container-box{
+    padding-top: 100px;
+}
+
+#login-error{
+    color: red;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 10px 0;
+
+    display: flex;
+    justify-content: center;
+}

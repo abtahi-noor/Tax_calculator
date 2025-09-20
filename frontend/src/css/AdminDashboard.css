@@ -1,0 +1,93 @@
+
+/**{
+    border: solid red 1px;
+}*/
+
+.inc-update-form-cont{
+    /*background-color: rgb(215, 215, 215);*/
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    width: 100%;
+    /*margin: 0px 0 140px 0;*/
+    padding: 100px 0 200px 0;
+}
+
+.inc-update-form-cont form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 20px 35px 50px 16px;
+}
+
+.inc-update-cont{
+    background-color: rgb(128, 208, 255);
+}
+
+.inc-update{
+    margin-left: 50px;
+}
+
+.inc-update-inp{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.inc-update-title{
+    margin: 20px 40px;
+    font-size: 22px;
+}
+
+/* ############################### admin message */
+.admin-contact-cont{
+    background-color: #6cb3ff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.admin-contact-form-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.admin-contact-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.admin-contact-cont label {
+margin-bottom: 8px;
+}
+
+.admin-contact-cont input,
+.admin-contact-cont textarea {
+width: 100%;
+padding: 8px;
+margin-bottom: 16px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.admin-contact-cont button {
+width: 100%;
+padding: 10px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.admin-contact-cont button:hover {
+background-color: #0056b3;
+}
+
+
